@@ -41,6 +41,24 @@ class Product extends Model {
       totalPage,
     };
   }
+
+  static async findById(id) {
+    const query = `
+      SELECT
+        p.*,
+        c.name AS category
+      FROM "${this.tableName}" p 
+      JOIN categories c ON c.id = p."categoryId"
+      WHERE p.id = ${id}
+    `;
+    const result = await pool.query(query);
+
+    if (result.rowCount == 0) {
+      throw new Error(`Data not found`);
+    }
+
+    return result.rows[0];
+  }
 }
 
 module.exports = Product;

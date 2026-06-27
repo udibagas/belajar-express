@@ -40,6 +40,7 @@
           <th>Name</th>
           <th>Price</th>
           <th>Stock</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
@@ -51,6 +52,10 @@
           </td>
           <td><%= p.price %></td>
           <td><%= p.stock %></td>
+          <td>
+            <a href="/products/<%= p.id %>/delete">Hapus</a> | 
+            <a href="/products/<%= p.id %>/edit">Edit</a>
+          </td>
         </tr>
       <% }) %>
       </tbody>

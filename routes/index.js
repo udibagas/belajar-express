@@ -1,10 +1,10 @@
 const router = require("express").Router();
 
-router.get("/", (req, res) => {
-  res.redirect("/products");
-});
-
-router.use(require("./products"));
-router.use(require("./categories"));
+router
+  .get("/", (req, res) => {
+    res.redirect("/products");
+  })
+  .use("/products", require("./products"))
+  .use("/categories", require("./categories"));
 
 module.exports = router;

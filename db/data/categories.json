@@ -1,0 +1,22 @@
+[
+  { "name": "Electronics" },
+  { "name": "Accessories" },
+  { "name": "Audio" },
+  { "name": "Storage" },
+  { "name": "Mobile" },
+  { "name": "Furniture" },
+  { "name": "Cables" },
+  { "name": "Networking" },
+  { "name": "Components" },
+  { "name": "Office" },
+  { "name": "Wearables" },
+  { "name": "Gaming" },
+  { "name": "Software" },
+  { "name": "Cameras" },
+  { "name": "Printers" },
+  { "name": "Monitors" },
+  { "name": "Keyboards & Mice" },
+  { "name": "Networking Equipment" },
+  { "name": "Chargers" },
+  { "name": "Smart Home" }
+]

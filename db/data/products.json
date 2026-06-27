@@ -1,0 +1,723 @@
+[
+  {
+    "name": "Laptop Pro 15\"",
+    "description": "High-performance laptop with 16GB RAM, 512GB SSD, Intel Core i7",
+    "price": 15999000,
+    "stock": 25,
+    "categoryId": 1
+  },
+  {
+    "name": "Laptop Air 13\"",
+    "description": "Ultrabook with M1 chip, 8GB RAM, 256GB SSD",
+    "price": 13999000,
+    "stock": 30,
+    "categoryId": 1
+  },
+  {
+    "name": "Gaming Laptop 17\"",
+    "description": "RTX 4060 GPU, 32GB RAM, 1TB SSD, 144Hz display",
+    "price": 24999000,
+    "stock": 10,
+    "categoryId": 1
+  },
+  {
+    "name": "Business Laptop 14\"",
+    "description": "Lightweight business laptop with 12hr battery life",
+    "price": 11999000,
+    "stock": 20,
+    "categoryId": 1
+  },
+  {
+    "name": "2-in-1 Laptop",
+    "description": "Convertible laptop with touchscreen and stylus support",
+    "price": 14999000,
+    "stock": 15,
+    "categoryId": 1
+  },
+  {
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI up to 3200",
+    "price": 250000,
+    "stock": 100,
+    "categoryId": 2
+  },
+  {
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse with 16000 DPI and 8 programmable buttons",
+    "price": 450000,
+    "stock": 75,
+    "categoryId": 2
+  },
+  {
+    "name": "Vertical Mouse",
+    "description": "Ergonomic vertical mouse to prevent wrist strain",
+    "price": 380000,
+    "stock": 40,
+    "categoryId": 2
+  },
+  {
+    "name": "Bluetooth Mouse",
+    "description": "Slim Bluetooth mouse with metal scroll wheel",
+    "price": 320000,
+    "stock": 85,
+    "categoryId": 2
+  },
+  {
+    "name": "Trackball Mouse",
+    "description": "Wireless trackball mouse for ergonomic comfort",
+    "price": 550000,
+    "stock": 25,
+    "categoryId": 2
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with blue switches",
+    "price": 850000,
+    "stock": 50,
+    "categoryId": 2
+  },
+  {
+    "name": "Wireless Keyboard",
+    "description": "Slim wireless keyboard with quiet keys",
+    "price": 420000,
+    "stock": 65,
+    "categoryId": 2
+  },
+  {
+    "name": "Gaming Keyboard",
+    "description": "Mechanical gaming keyboard with macro keys and wrist rest",
+    "price": 1250000,
+    "stock": 35,
+    "categoryId": 2
+  },
+  {
+    "name": "Ergonomic Keyboard",
+    "description": "Split ergonomic keyboard with wrist support",
+    "price": 1850000,
+    "stock": 20,
+    "categoryId": 2
+  },
+  {
+    "name": "Compact Keyboard",
+    "description": "60% mechanical keyboard with hot-swappable switches",
+    "price": 950000,
+    "stock": 45,
+    "categoryId": 2
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "description": "Premium Bluetooth headphones with active noise cancellation",
+    "price": 3250000,
+    "stock": 30,
+    "categoryId": 3
+  },
+  {
+    "name": "Wireless Earbuds",
+    "description": "True wireless earbuds with charging case and IPX7 waterproof",
+    "price": 1250000,
+    "stock": 85,
+    "categoryId": 3
+  },
+  {
+    "name": "Gaming Headset",
+    "description": "7.1 surround sound gaming headset with RGB lighting",
+    "price": 950000,
+    "stock": 55,
+    "categoryId": 3
+  },
+  {
+    "name": "Sports Earbuds",
+    "description": "Ear-hook wireless earbuds for running and workouts",
+    "price": 650000,
+    "stock": 70,
+    "categoryId": 3
+  },
+  {
+    "name": "Studio Headphones",
+    "description": "Professional studio monitoring headphones with neutral sound",
+    "price": 1850000,
+    "stock": 25,
+    "categoryId": 3
+  },
+  {
+    "name": "External SSD 1TB",
+    "description": "Portable SSD with USB-C, up to 1050MB/s read speed",
+    "price": 1899000,
+    "stock": 40,
+    "categoryId": 4
+  },
+  {
+    "name": "External HDD 2TB",
+    "description": "Portable hard drive for backups and extra storage",
+    "price": 1250000,
+    "stock": 60,
+    "categoryId": 4
+  },
+  {
+    "name": "NVMe SSD 500GB",
+    "description": "Internal PCIe Gen4 SSD for desktops and laptops",
+    "price": 950000,
+    "stock": 50,
+    "categoryId": 4
+  },
+  {
+    "name": "NVMe SSD 1TB",
+    "description": "High-speed internal SSD for gaming and content creation",
+    "price": 1650000,
+    "stock": 45,
+    "categoryId": 4
+  },
+  {
+    "name": "External SSD 500GB",
+    "description": "Compact SSD with USB 3.2 for fast file transfers",
+    "price": 1150000,
+    "stock": 55,
+    "categoryId": 4
+  },
+  {
+    "name": "Smartphone 6.7\"",
+    "description": "Flagship smartphone with 128GB storage and 50MP camera",
+    "price": 8999000,
+    "stock": 35,
+    "categoryId": 5
+  },
+  {
+    "name": "Budget Smartphone",
+    "description": "Affordable 5G smartphone with 64GB storage",
+    "price": 3250000,
+    "stock": 50,
+    "categoryId": 5
+  },
+  {
+    "name": "Gaming Phone",
+    "description": "Snapdragon 8 Gen 2 with active cooling and shoulder triggers",
+    "price": 11999000,
+    "stock": 15,
+    "categoryId": 5
+  },
+  {
+    "name": "Foldable Phone",
+    "description": "Foldable OLED display with premium build",
+    "price": 19999000,
+    "stock": 10,
+    "categoryId": 5
+  },
+  {
+    "name": "Rugged Phone",
+    "description": "IP68 waterproof and drop-proof for outdoor use",
+    "price": 5499000,
+    "stock": 20,
+    "categoryId": 5
+  },
+  {
+    "name": "Gaming Chair",
+    "description": "Ergonomic gaming chair with lumbar support and headrest",
+    "price": 3250000,
+    "stock": 12,
+    "categoryId": 6
+  },
+  {
+    "name": "Office Chair",
+    "description": "Mesh office chair with adjustable armrests",
+    "price": 1850000,
+    "stock": 25,
+    "categoryId": 6
+  },
+  {
+    "name": "Standing Desk",
+    "description": "Electric height adjustable standing desk frame",
+    "price": 4250000,
+    "stock": 8,
+    "categoryId": 6
+  },
+  {
+    "name": "Monitor Arm",
+    "description": "Dual monitor mount with gas spring adjustment",
+    "price": 850000,
+    "stock": 30,
+    "categoryId": 6
+  },
+  {
+    "name": "Foot Rest",
+    "description": "Adjustable footrest for desk ergonomics",
+    "price": 350000,
+    "stock": 45,
+    "categoryId": 6
+  },
+  {
+    "name": "USB-C Hub",
+    "description": "7-in-1 USB-C hub with 4K HDMI, Ethernet, and SD card slot",
+    "price": 550000,
+    "stock": 75,
+    "categoryId": 7
+  },
+  {
+    "name": "HDMI Cable 2m",
+    "description": "High-speed HDMI 2.1 cable for 8K video",
+    "price": 150000,
+    "stock": 200,
+    "categoryId": 7
+  },
+  {
+    "name": "USB-C Cable",
+    "description": "Braided USB-C to USB-C cable with 100W charging support",
+    "price": 120000,
+    "stock": 250,
+    "categoryId": 7
+  },
+  {
+    "name": "DisplayPort Cable",
+    "description": "DisplayPort 1.4 cable for 8K monitors",
+    "price": 180000,
+    "stock": 120,
+    "categoryId": 7
+  },
+  {
+    "name": "Audio Cable",
+    "description": "3.5mm to RCA audio cable, 2 meters",
+    "price": 75000,
+    "stock": 180,
+    "categoryId": 7
+  },
+  {
+    "name": "WiFi 6 Router",
+    "description": "Dual-band AX5400 router with 6 antennas",
+    "price": 1650000,
+    "stock": 28,
+    "categoryId": 8
+  },
+  {
+    "name": "Mesh WiFi System",
+    "description": "3-pack mesh WiFi for whole home coverage",
+    "price": 2850000,
+    "stock": 15,
+    "categoryId": 8
+  },
+  {
+    "name": "Network Switch",
+    "description": "8-port gigabit unmanaged network switch",
+    "price": 450000,
+    "stock": 35,
+    "categoryId": 8
+  },
+  {
+    "name": "Powerline Adapter",
+    "description": "Gigabit powerline adapter kit for home networking",
+    "price": 950000,
+    "stock": 20,
+    "categoryId": 8
+  },
+  {
+    "name": "Wireless Adapter",
+    "description": "USB WiFi 6 adapter for desktop PCs",
+    "price": 380000,
+    "stock": 50,
+    "categoryId": 8
+  },
+  {
+    "name": "RTX 4060 GPU",
+    "description": "8GB GDDR6 gaming graphics card",
+    "price": 5499000,
+    "stock": 8,
+    "categoryId": 9
+  },
+  {
+    "name": "RTX 4070 GPU",
+    "description": "12GB GDDR6X high-performance GPU for 1440p gaming",
+    "price": 8499000,
+    "stock": 5,
+    "categoryId": 9
+  },
+  {
+    "name": "16GB DDR4 RAM",
+    "description": "Desktop memory 16GB DDR4 3200MHz",
+    "price": 1150000,
+    "stock": 42,
+    "categoryId": 9
+  },
+  {
+    "name": "32GB DDR5 RAM",
+    "description": "High-speed DDR5 desktop memory kit",
+    "price": 2450000,
+    "stock": 25,
+    "categoryId": 9
+  },
+  {
+    "name": "B550 Motherboard",
+    "description": "AMD B550 motherboard with PCIe 4.0",
+    "price": 2350000,
+    "stock": 18,
+    "categoryId": 9
+  },
+  {
+    "name": "Printer Ink Cartridge",
+    "description": "Black ink cartridge for HP printers",
+    "price": 350000,
+    "stock": 60,
+    "categoryId": 10
+  },
+  {
+    "name": "Printer Paper",
+    "description": "A4 printer paper, 500 sheets, 80gsm",
+    "price": 65000,
+    "stock": 500,
+    "categoryId": 10
+  },
+  {
+    "name": "Label Printer",
+    "description": "Thermal label printer for shipping and barcodes",
+    "price": 1250000,
+    "stock": 15,
+    "categoryId": 10
+  },
+  {
+    "name": "Stapler",
+    "description": "Heavy duty stapler for office use",
+    "price": 85000,
+    "stock": 100,
+    "categoryId": 10
+  },
+  {
+    "name": "Whiteboard",
+    "description": "Magnetic whiteboard 90x60cm with markers",
+    "price": 550000,
+    "stock": 25,
+    "categoryId": 10
+  },
+  {
+    "name": "Smartwatch Pro",
+    "description": "GPS smartwatch with heart rate and SpO2 monitoring",
+    "price": 2850000,
+    "stock": 35,
+    "categoryId": 11
+  },
+  {
+    "name": "Fitness Tracker",
+    "description": "Basic fitness tracker with step and sleep tracking",
+    "price": 850000,
+    "stock": 60,
+    "categoryId": 11
+  },
+  {
+    "name": "Smart Ring",
+    "description": "Fitness and sleep tracking smart ring",
+    "price": 2250000,
+    "stock": 20,
+    "categoryId": 11
+  },
+  {
+    "name": "Kids Smartwatch",
+    "description": "GPS tracker and calling for children",
+    "price": 1250000,
+    "stock": 40,
+    "categoryId": 11
+  },
+  {
+    "name": "Luxury Smartwatch",
+    "description": "Premium hybrid smartwatch with classic design",
+    "price": 4250000,
+    "stock": 12,
+    "categoryId": 11
+  },
+  {
+    "name": "Gaming Controller",
+    "description": "Wireless gaming controller for PC and mobile",
+    "price": 650000,
+    "stock": 50,
+    "categoryId": 12
+  },
+  {
+    "name": "Gaming Mouse Pad",
+    "description": "Large RGB gaming mouse pad with hard surface",
+    "price": 350000,
+    "stock": 65,
+    "categoryId": 12
+  },
+  {
+    "name": "Gaming Microphone",
+    "description": "RGB condenser microphone for streaming",
+    "price": 1550000,
+    "stock": 25,
+    "categoryId": 12
+  },
+  {
+    "name": "Game Capture Card",
+    "description": "4K HDMI capture card for console streaming",
+    "price": 2250000,
+    "stock": 18,
+    "categoryId": 12
+  },
+  {
+    "name": "Gaming Monitor 27\"",
+    "description": "165Hz 1440p gaming monitor with 1ms response",
+    "price": 4299000,
+    "stock": 22,
+    "categoryId": 12
+  },
+  {
+    "name": "Windows 11 Pro",
+    "description": "Genuine Windows 11 Pro license key",
+    "price": 1850000,
+    "stock": 100,
+    "categoryId": 13
+  },
+  {
+    "name": "Microsoft Office",
+    "description": "1-year subscription for Microsoft 365 Family",
+    "price": 1250000,
+    "stock": 200,
+    "categoryId": 13
+  },
+  {
+    "name": "Antivirus Software",
+    "description": "3-year antivirus protection for 5 devices",
+    "price": 650000,
+    "stock": 150,
+    "categoryId": 13
+  },
+  {
+    "name": "Photo Editing Software",
+    "description": "Professional photo editing software license",
+    "price": 2250000,
+    "stock": 50,
+    "categoryId": 13
+  },
+  {
+    "name": "Video Editing Software",
+    "description": "4K video editing software with lifetime license",
+    "price": 3250000,
+    "stock": 40,
+    "categoryId": 13
+  },
+  {
+    "name": "DSLR Camera",
+    "description": "24MP mirrorless camera with 18-55mm lens",
+    "price": 8999000,
+    "stock": 12,
+    "categoryId": 14
+  },
+  {
+    "name": "Action Camera 4K",
+    "description": "Waterproof action camera with image stabilization",
+    "price": 2250000,
+    "stock": 28,
+    "categoryId": 14
+  },
+  {
+    "name": "Webcam 4K",
+    "description": "Professional 4K webcam with autofocus",
+    "price": 1850000,
+    "stock": 30,
+    "categoryId": 14
+  },
+  {
+    "name": "Camera Tripod",
+    "description": "Lightweight aluminum tripod with ball head",
+    "price": 550000,
+    "stock": 45,
+    "categoryId": 14
+  },
+  {
+    "name": "Camera Bag",
+    "description": "Waterproof camera backpack for DSLR and lenses",
+    "price": 750000,
+    "stock": 35,
+    "categoryId": 14
+  },
+  {
+    "name": "Laser Printer",
+    "description": "Monochrome laser printer with duplex printing",
+    "price": 2250000,
+    "stock": 18,
+    "categoryId": 15
+  },
+  {
+    "name": "Photo Printer",
+    "description": "Wireless photo printer for 4x6 prints",
+    "price": 1650000,
+    "stock": 25,
+    "categoryId": 15
+  },
+  {
+    "name": "All-in-One Printer",
+    "description": "Color printer, scanner, copier with WiFi",
+    "price": 3250000,
+    "stock": 15,
+    "categoryId": 15
+  },
+  {
+    "name": "Thermal Printer",
+    "description": "Receipt and label thermal printer",
+    "price": 1250000,
+    "stock": 20,
+    "categoryId": 15
+  },
+  {
+    "name": "3D Printer",
+    "description": "Entry-level 3D printer with heated bed",
+    "price": 5499000,
+    "stock": 8,
+    "categoryId": 15
+  },
+  {
+    "name": "Gaming Monitor 24\"",
+    "description": "144Hz 1080p gaming monitor",
+    "price": 2850000,
+    "stock": 30,
+    "categoryId": 16
+  },
+  {
+    "name": "Professional Monitor 27\"",
+    "description": "4K IPS monitor for photo and video editing",
+    "price": 6499000,
+    "stock": 12,
+    "categoryId": 16
+  },
+  {
+    "name": "Portable Monitor",
+    "description": "15.6\" USB-C portable monitor for laptops",
+    "price": 2850000,
+    "stock": 25,
+    "categoryId": 16
+  },
+  {
+    "name": "Curved Monitor 34\"",
+    "description": "Ultrawide 144Hz curved gaming monitor",
+    "price": 8499000,
+    "stock": 8,
+    "categoryId": 16
+  },
+  {
+    "name": "Touch Monitor",
+    "description": "15\" touchscreen monitor for POS and kiosks",
+    "price": 3850000,
+    "stock": 15,
+    "categoryId": 16
+  },
+  {
+    "name": "Wireless Keyboard & Mouse",
+    "description": "Combo set with silent keys and ergonomic mouse",
+    "price": 550000,
+    "stock": 60,
+    "categoryId": 17
+  },
+  {
+    "name": "Mechanical Keycap Set",
+    "description": "Custom keycap set for mechanical keyboards",
+    "price": 450000,
+    "stock": 40,
+    "categoryId": 17
+  },
+  {
+    "name": "Keyboard Wrist Rest",
+    "description": "Memory foam wrist rest for typing comfort",
+    "price": 150000,
+    "stock": 80,
+    "categoryId": 17
+  },
+  {
+    "name": "Mouse Bungee",
+    "description": "Mouse cord management system for gaming",
+    "price": 180000,
+    "stock": 50,
+    "categoryId": 17
+  },
+  {
+    "name": "Switch and Router Combo",
+    "description": "16-port switch with built-in router",
+    "price": 2850000,
+    "stock": 10,
+    "categoryId": 18
+  },
+  {
+    "name": "Outdoor Access Point",
+    "description": "Weatherproof WiFi access point for outdoor use",
+    "price": 1850000,
+    "stock": 15,
+    "categoryId": 18
+  },
+  {
+    "name": "Fiber Media Converter",
+    "description": "Gigabit fiber to ethernet media converter",
+    "price": 950000,
+    "stock": 20,
+    "categoryId": 18
+  },
+  {
+    "name": "Network Tester",
+    "description": "Cable tester for network troubleshooting",
+    "price": 350000,
+    "stock": 30,
+    "categoryId": 18
+  },
+  {
+    "name": "GaN Charger 100W",
+    "description": "Compact 100W USB-C GaN charger with 4 ports",
+    "price": 850000,
+    "stock": 45,
+    "categoryId": 19
+  },
+  {
+    "name": "Magnetic Wireless Charger",
+    "description": "MagSafe compatible wireless charger for iPhone",
+    "price": 450000,
+    "stock": 60,
+    "categoryId": 19
+  },
+  {
+    "name": "Car Charger",
+    "description": "Dual port USB-C car charger with fast charging",
+    "price": 250000,
+    "stock": 80,
+    "categoryId": 19
+  },
+  {
+    "name": "Wireless Charging Stand",
+    "description": "15W Qi-certified charging stand for desk",
+    "price": 380000,
+    "stock": 55,
+    "categoryId": 19
+  },
+  {
+    "name": "Power Bank 10000mAh",
+    "description": "Slim power bank with built-in USB-C cable",
+    "price": 350000,
+    "stock": 90,
+    "categoryId": 19
+  },
+  {
+    "name": "Smart Bulb",
+    "description": "Color-changing WiFi smart bulb with app control",
+    "price": 180000,
+    "stock": 100,
+    "categoryId": 20
+  },
+  {
+    "name": "Smart Plug",
+    "description": "WiFi smart plug with energy monitoring",
+    "price": 250000,
+    "stock": 85,
+    "categoryId": 20
+  },
+  {
+    "name": "Smart Speaker",
+    "description": "Voice assistant smart speaker with premium sound",
+    "price": 1250000,
+    "stock": 30,
+    "categoryId": 20
+  },
+  {
+    "name": "Smart Doorbell",
+    "description": "Video doorbell with motion detection",
+    "price": 1850000,
+    "stock": 20,
+    "categoryId": 20
+  },
+  {
+    "name": "Robot Vacuum",
+    "description": "Smart robot vacuum with mapping and app control",
+    "price": 3250000,
+    "stock": 12,
+    "categoryId": 20
+  }
+]

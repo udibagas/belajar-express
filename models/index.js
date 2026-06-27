@@ -54,11 +54,9 @@ class Model {
   }
 
   static async delete(id) {
-    const existingData = await this.findById(id);
-    return existingData.remove();
-    // const query = `DELETE FROM "${this.tableName}" WHERE id = $1 RETURNING *`;
-    // const result = await pool.query(query, [id]); // secara query berhasil
-    // return result.rows;
+    const query = `DELETE FROM "${this.tableName}" WHERE id = $1 RETURNING *`;
+    const result = await pool.query(query, [id]); // secara query berhasil
+    return result.rows;
   }
 
   static async update(id, data) {

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><a href="/products">&larr;</a> | Edit Product</h1>
+
+
+    <form method="post">
+      <p>
+        <label for="name">Name</label> <br />
+        <input type="text" name="name" placeholder="Name" id="name" value="<%= product.name %>" />
+      </p>
+
+      <p>
+        <label for="categoryId">Category</label> <br />
+        <select name="categoryId" id="categoryId">
+          <% categories.forEach(c => { %>
+            <option value="<%= c.id %>" <%= c.id == product.categoryId && 'selected' %>><%= c.name %></option>
+          <% }) %>
+        </select>
+      </p>
+
+      <p>
+        <label for="price">Price</label> <br />
+        <input type="number" name="price" placeholder="Price" id="price" value="<%= product.price %>" />
+      </p>
+
+      <p>
+        <label for="stock">Stock</label> <br />
+        <input type="number" name="stock" placeholder="Stock" id="stock" value="<%= product.stock %>" />
+      </p>
+
+      <p>
+        <label for="description">Description</label> <br />
+        <textarea
+          name="description"
+          id="description"
+        ><%= product.description %></textarea>
+      </p>
+
+      <p>
+        <button type="submit">Update</button>
+        <a href="/products">Cancel</a>
+      </p>
+    </form>
+
+  </body>
+</html>
